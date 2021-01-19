@@ -1,6 +1,4 @@
 # BankingService
-Spring Data REST and JPA Example
-This project depicts the Spring Boot Example with Spring Data REST and JPA Example
 
 Description
 This Project provides APIs for user to Update Account Details, Add new transactions and retrieve them from the In-Memory H2 Database.
