@@ -1,8 +1,6 @@
 package com.banking.demo.controller;
 
 
-import com.banking.demo.entity.AccountDetails;
-import com.banking.demo.entity.TransactionDetails;
 import com.banking.demo.model.Account;
 import com.banking.demo.model.SearchCriteria;
 import com.banking.demo.model.Transaction;
@@ -10,12 +8,10 @@ import com.banking.demo.service.BankingService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import javax.validation.constraints.Size;
 import java.util.List;
 
 @RestController
@@ -59,7 +55,7 @@ public class BankingController {
     }
 
     /**
-     * API to get save the transactions for an account
+     * API to save the transactions for an account
      * @param transaction
      * @return
      */
