@@ -10,6 +10,8 @@ Using the following endpoints, different operations can be achieved:
 
 /getTransactions - API to get transactions based on AccountNumber, Type and Date range. Eg. {"accountNumber": "111111111112","startDate":"15-01-2021","endDate":"2021-01-17"}
 
+/getAccount- API to get account and transaction details. Eg: {"accountNumber": "111111111112","startDate":"15-01-2021","endDate":"2021-01-17"}
+
 Libraries used:
 
 Spring Boot
